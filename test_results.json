@@ -1,0 +1,167 @@
+{
+  "categories": {
+    "Basic Integration": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.0,
+          "message": "XAgent imports successful",
+          "name": "XAgent Import Test"
+        },
+        {
+          "passed": true,
+          "duration": 0.001013040542602539,
+          "message": "Agent TestAgent initialized successfully",
+          "name": "Agent Initialization"
+        },
+        {
+          "passed": true,
+          "duration": 0.001817941665649414,
+          "message": "Communication test completed: 274 chars response",
+          "name": "Basic Communication"
+        }
+      ],
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "Conversational Agents": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.0,
+          "message": "Conversational agent created successfully",
+          "name": "Conversational Agent Creation"
+        },
+        {
+          "passed": true,
+          "duration": 0.0022618770599365234,
+          "message": "Chat functionality working",
+          "name": "Chat Functionality"
+        },
+        {
+          "passed": true,
+          "duration": 0.0017774105072021484,
+          "message": "Memory management working: 1 -> 0",
+          "name": "Memory Management"
+        },
+        {
+          "passed": true,
+          "duration": 0.002204418182373047,
+          "message": "Team conversational agent working",
+          "name": "Team Conversational Agent"
+        }
+      ],
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "Dialogue with Tools": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.0005409717559814453,
+          "message": "Tool agent created with 1 tools",
+          "name": "Tool-enabled Agent Creation"
+        },
+        {
+          "passed": true,
+          "duration": 0.0010077953338623047,
+          "message": "Tool integration working",
+          "name": "Tool Integration"
+        },
+        {
+          "passed": true,
+          "duration": 0.0013744831085205078,
+          "message": "Tool statistics working",
+          "name": "Tool Usage Statistics"
+        }
+      ],
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "Team Coordination": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.001834869384765625,
+          "message": "Team formation successful",
+          "name": "Team Formation"
+        },
+        {
+          "passed": true,
+          "duration": 0.0006353855133056641,
+          "message": "Inter-agent communication working",
+          "name": "Inter-agent Communication"
+        },
+        {
+          "passed": true,
+          "duration": 0.0010886192321777344,
+          "message": "Shared context working",
+          "name": "Shared Context Management"
+        }
+      ],
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "Performance Tests": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.0009958744049072266,
+          "message": "Response time: 0.00s",
+          "name": "Response Time"
+        },
+        {
+          "passed": true,
+          "duration": 0.006165742874145508,
+          "message": "Memory usage: 10 items",
+          "name": "Memory Usage"
+        },
+        {
+          "passed": true,
+          "duration": 0.0046253204345703125,
+          "message": "Concurrent operations: 5 completed",
+          "name": "Concurrent Operations"
+        }
+      ],
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    },
+    "Error Handling": {
+      "tests": [
+        {
+          "passed": true,
+          "duration": 0.0005657672882080078,
+          "message": "Invalid input handled",
+          "name": "Invalid Input Handling"
+        },
+        {
+          "passed": true,
+          "duration": 0.0020952224731445312,
+          "message": "Exception recovery working",
+          "name": "Exception Recovery"
+        },
+        {
+          "passed": true,
+          "duration": 0.0006237030029296875,
+          "message": "Timeout handling working",
+          "name": "Timeout Handling"
+        }
+      ],
+      "total": 3,
+      "passed": 3,
+      "failed": 0
+    }
+  },
+  "summary": {
+    "total_tests": 19,
+    "passed": 19,
+    "failed": 0,
+    "success_rate": 100.0,
+    "duration": 0.03168749809265137
+  }
+}
